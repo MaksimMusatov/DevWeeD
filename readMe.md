@@ -1,1 +1,1 @@
-https://mortlolz.github.io/Maxim/DevWeeD%20main%20menu.html
+https://mortlolz.github.io/DevWeeD/DevWeeD%20main%20menu.html
