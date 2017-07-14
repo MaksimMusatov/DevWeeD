@@ -6,6 +6,8 @@
 //$(".frontPage").append('<div class="mainWindow"><div class="unitFrame"><div class="unitHeader"><div class="unitCoins"></div><div class="unitLevel"></div><div class="unitUpgrade"><div class="upgradeIcon"></div></div</div><div class="unitImage"></div></div></div>');
 //create UNITS WINDOW
 
+
+
 /*var UNITS = [
     {        unitName: first, unitId: 1, unitLevel: 1, unitFactor: 1, unitImage:  },
     {        unitName: second, unitId: 2, unitLevel: 1, unitFactor: 2, unitImage:  },
@@ -24,7 +26,7 @@
  var unitsId = 0;
  for(i=0; i<3; i++){
  for(j=0; j<3; j++){
- $(".mainWindow").append('<div class="unitFrame" data-id="'+unitsId+'"><div class="unitHeader"><div class="unitCoins"></div><div class="unitLevel"></div><div class="unitUpgrade"><div class="upgradeIcon"></div></div</div><div class="unitImage"></div></div>');
+ $(".mainWindow").append('<div class="unitFrame" data-id="'+unitsId+'"><div class="unitHeader"><div class="unitCoins"></div><div class="unitLevel"></div><div class="unitUpgrade"><div class="upgradeIcon"></div></div></div><div class="unitImage"></div></div>');
 
  unitsId++;
  }
