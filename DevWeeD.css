@@ -1,0 +1,160 @@
+body{
+    background-color: blanchedalmond;
+}
+.mainWindow{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border: 1px solid darkgreen;
+    background: no-repeat url('DevWeed/somePic/weedBody.jpg');
+    margin: 20px auto;
+    border-radius: 3%;
+    box-shadow: 0 0 3px 2px darkgreen;
+
+}
+.logo{
+    position: relative;
+    margin: 30px auto;
+    height: 190px;
+    width: 500px;
+    background: no-repeat url("DevWeed/somePic/logo.png");
+    background-size: 520px 190px;
+    border-radius: 5%;
+    box-shadow: 0px 0px 3px 5px darkgreen;
+}
+.name-logo{
+    position: absolute;
+    font-size: 39px;
+    font-style: italic;
+    top: 30px;
+    left: 10px;
+    transform: rotate(15deg);
+    color: black;
+}
+.button{
+    width: 270px;
+    height: 85px;
+    padding-top: 25px;
+    border-radius: 10%;
+    background-color: greenyellow;
+    background-image: linear-gradient(to bottom, greenyellow, limegreen);
+    text-align: center;
+    box-shadow: 2px 5px 5px black;
+    margin: 40px auto;
+    font-size: 55px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.playGame{
+    margin-top: 50px;
+}
+.playGame:hover{
+    color: orangered;
+    box-shadow: 0 0 10px 5px white;
+    font-size: 70px;
+    height: 110px;
+    background: no-repeat center url("DevWeed/somePic/trollfaceStart1.jpg");
+    transition:
+            background 400ms,
+            color 200ms,
+            font-size 200ms,
+            height 200ms,
+            box-shadow 200ms;
+}
+.scores:hover{
+    color: darkorange;
+    box-shadow: 0 0 10px 5px white;
+    font-size: 70px;
+    height: 110px;
+    background: no-repeat center url("DevWeed/somePic/trollfaceScore1.jpg");
+    transition:
+            background 400ms,
+            color 200ms,
+            font-size 200ms,
+            height 200ms,
+            box-shadow 200ms;
+}
+.mainWindow .units{
+    display: inline-flex;
+    width: 180px;
+    height: 180px;
+    position: relative;
+    margin: 8px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: linear-gradient(to top, red, yellow);
+}
+.unitFrame{
+    display: inline-flex;
+    width: 180px;
+    height: 180px;
+    position: relative;
+    margin: 9px;
+    border: 1px solid black;
+    border-radius: 5%;
+    background: linear-gradient(to top, red, purple);
+}
+.unitHeader{
+    display: inline-flex;
+    position: relative;
+    margin: 4px auto;
+    border: 1px solid black;
+    border-radius: 5%;
+    width: 170px;
+    height: 40px;
+    background-color: yellow;
+}
+.unitCoins{
+    width: 94px;
+    color: #b3b300;
+    background-color: darkslategrey;
+
+}
+.unitLevel{
+    position: relative;
+    width: 24px;
+    background-color: mediumslateblue;
+    font-size: 10px;
+    color: #00e600;
+}
+
+.unitUpgrade{
+    width: 33px;
+    background-color: blue;
+}
+.upgradeIcon{
+    margin-left: -1px;
+    margin-top: 0;
+    width: 35px;
+    height: 35px;
+    border-radius: 5%;
+    background:
+            no-repeat
+            top
+            url("DevWeeD/somePic/upgradeIcon.png");
+}
+.unitHeader>div{
+    border: 1px solid black;
+    height: 34px;
+    float: left;
+    margin-left: 3px;
+    margin-top: 2px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5%;
+
+}
+.unitImage{
+    position: absolute;
+    left: 0;
+    top: 45px;
+    width: 170px;
+    height: 125px;
+    background-size: 100%;
+    background:
+            content-box
+            center
+            no-repeat
+            url("DevWeeD/somePic/firstUnit.png");
+
+}
