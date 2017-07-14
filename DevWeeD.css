@@ -6,7 +6,7 @@ body{
     width: 600px;
     height: 600px;
     border: 1px solid darkgreen;
-    background: no-repeat url('DevWeed/somePic/weedBody.jpg');
+    background: no-repeat url('DevWeeD/somePic/weedBody.jpg');
     margin: 20px auto;
     border-radius: 3%;
     box-shadow: 0 0 3px 2px darkgreen;
@@ -17,7 +17,7 @@ body{
     margin: 30px auto;
     height: 190px;
     width: 500px;
-    background: no-repeat url("DevWeed/somePic/logo.png");
+    background: no-repeat url("DevWeeD/somePic/logo.png");
     background-size: 520px 190px;
     border-radius: 5%;
     box-shadow: 0px 0px 3px 5px darkgreen;
@@ -53,7 +53,7 @@ body{
     box-shadow: 0 0 10px 5px white;
     font-size: 70px;
     height: 110px;
-    background: no-repeat center url("DevWeed/somePic/trollfaceStart1.jpg");
+    background: no-repeat center url("DevWeeD/somePic/trollfaceStart1.jpg");
     transition:
             background 400ms,
             color 200ms,
@@ -66,7 +66,7 @@ body{
     box-shadow: 0 0 10px 5px white;
     font-size: 70px;
     height: 110px;
-    background: no-repeat center url("DevWeed/somePic/trollfaceScore1.jpg");
+    background: no-repeat center url("DevWeeD/somePic/trollfaceScore1.jpg");
     transition:
             background 400ms,
             color 200ms,
