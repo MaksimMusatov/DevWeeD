@@ -1,1 +1,1 @@
-https://github.com/mortlolz/Maxim
+https://mortlolz.github.io/Maxim/
