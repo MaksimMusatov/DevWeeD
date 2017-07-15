@@ -2,7 +2,7 @@ $(".frontPage").append('<div class=mainWindow></div>');
 var unitsId = 0;
 for(i=0; i<3; i++){
     for(j=0; j<3; j++){
-        $(".mainWindow").append('</div><div class="unitFrame" data-id="'+unitsId+'"><div class="unitHeader"><div class="unitCoins"></div><div class="unitLevel"></div><div class="unitUpgrade"><div class="upgradeIcon"></div></div></div><div class="unitImage"></div></div>');
+        $(".mainWindow").append('<selection></selection></div><div class="unitFrame" data-id="'+unitsId+'"><div class="unitHeader"><div class="unitCoins"></div><div class="unitLevel"></div><div class="unitUpgrade"><div class="upgradeIcon"></div></div></div><div class="unitImage"></div></div></selection>');
 
         unitsId++;
     }
